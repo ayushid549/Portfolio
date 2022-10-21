@@ -1,0 +1,30 @@
+.coding-profile
+{
+    color:white;
+    width: 250px;
+    box-shadow:  4px 8px 10px 10px rgba(26, 24, 24, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coding-profile .card{
+    display: flex;
+    flex-direction:column;
+    /* background:white;
+    color: black; */
+    background-image: linear-gradient(35deg, rgb(17, 205, 239), rgb(17, 113, 239))
+}
+.card {
+    font-size:18px;
+    justify-content: center;
+    text-align: center;
+}
+.card .card-img h3{
+    margin: 10px;
+    color: white;
+}
+.card .card-img p{
+    margin: 15px;
+}
+.card .card-img span a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
