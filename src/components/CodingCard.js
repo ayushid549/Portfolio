@@ -27,6 +27,7 @@ export default function CodingCard() {
                         info='I have solved more than 50+ problems on leetcode.It helped me in improving my problem solving skills.' 
                         links="https://leetcode.com/ayushid549/"
                         />
+                        
                 </div>
             </div>
         </>
