@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 export default function Education() {
     return (
-        <>
+        <div>
             <Navbar />
 
             <div className='education-comp'>
@@ -38,7 +38,7 @@ export default function Education() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
 
     )
 }

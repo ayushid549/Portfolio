@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const AboutMe = () => {
     return (
-        <>
+        <div>
             <Navbar />
             <div className="about-page">
                 <h1>About Me</h1>
@@ -27,7 +27,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
 
 
     );

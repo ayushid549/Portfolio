@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 
 const Footer = () =>{
     return(
-        <>
+        <div>
 
         <Navbar/>
 
@@ -19,7 +19,7 @@ const Footer = () =>{
         <a href="#"><GitHubIcon/></a>
         
         </div>
-        </>
+        </div>
         
     );
 }

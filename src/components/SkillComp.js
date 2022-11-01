@@ -11,7 +11,7 @@ import Navbar from './Navbar';
 
 export default function SkillComp() {
     return (
-        <>
+        <div>
             <Navbar />
 
             <div className='skill-comp'>
@@ -55,7 +55,7 @@ export default function SkillComp() {
                 </div>
 
             </div>
-        </>
+        </div>
 
     )
 }
