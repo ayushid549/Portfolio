@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import Navbar from './components/Navbar';
 import Homepage from './components/Homepage.js';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
@@ -11,10 +12,8 @@ import { Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <div>
-
-    <Routes>
-        
-          
+    <Navbar />
+    <Routes>   
         <Route exact={true} path='/' element={<Homepage/>} />
         <Route  path="/About" element={<AboutMe/>} />
         <Route  path="/Education" element={<Education/>} />
@@ -22,7 +21,6 @@ const App = () => {
         <Route  path="/SkillComp" element={<SkillComp/>} />
         <Route  path="/Contact" element={<Contact/>} />
       </Routes>
-
     </div>
   );
 }

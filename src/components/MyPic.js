@@ -2,7 +2,6 @@ import React from "react";
 
 const MyPic = () =>{
     return(
-
         <div>
         <img src="./image/Myimage.png">My image</img>
         <img src="./image/myimage1.png">My image</img>

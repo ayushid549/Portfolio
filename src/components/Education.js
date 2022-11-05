@@ -5,8 +5,6 @@ import Navbar from './Navbar';
 export default function Education() {
     return (
         <div>
-            <Navbar />
-
             <div className='education-comp'>
                 <h1>Education</h1>
                 <div className='education'>

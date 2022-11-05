@@ -8,19 +8,12 @@ import Navbar from "./Navbar";
 
 const Footer = () =>{
     return(
-        <div>
-
-        <Navbar/>
-
-        <div className="footer-page">
+     <div className="footer-page">
         <a href="#"><TwitterIcon/></a>
         <a href="#"><LinkedInIcon/></a>
         <a href="#"><EmailIcon/></a>
-        <a href="#"><GitHubIcon/></a>
-        
+        <a href="#"><GitHubIcon/></a> 
         </div>
-        </div>
-        
     );
 }
 

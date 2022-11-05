@@ -6,7 +6,6 @@ import Navbar from './Navbar';
 export default function CodingCard() {
     return (
         <div>
-            <Navbar />
             <div className='coding-comp'>
                 <h1>Coding Profiles</h1>
                 <div className='profile'>

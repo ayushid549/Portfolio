@@ -16,7 +16,7 @@
 .home-page .profile img{
     width: 350px;
     height: 500px;   
-    border-radius: 50%;
+    /* border-radius: 10%; */
 }
 .home-page .about-profile{
     margin: 20px;
@@ -39,6 +39,7 @@
 .greeting-section .typewriter{
     font-size: 35px;
     color: white;
+    animation-iteration-count: infinite;
 }
 .about-profile .btn button{
     margin: 15px;
@@ -84,9 +85,9 @@
         box-shadow: none;
     }
     .home-page .profile img{
-        width: 250px;
-        height: 300px;   
-        border-radius: 50%;
+        width: 200px;
+        height: 270px;   
+        /* border-radius: 50%; */
         margin-top: 3%;
     }
 }

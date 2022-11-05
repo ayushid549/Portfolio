@@ -12,8 +12,6 @@ import Navbar from './Navbar';
 export default function SkillComp() {
     return (
         <div>
-            <Navbar />
-
             <div className='skill-comp'>
                 <h1>Skills</h1>
                 <div className='skill-container'>

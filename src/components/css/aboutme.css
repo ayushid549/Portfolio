@@ -45,16 +45,17 @@
     margin-top:20px;
 }
 .about-right{
-    margin-left:7%;
-} 
-.about-container .about-right img{
     width: 240px;
-    height: 310px;
-    margin-top: 20px;
+    height: 300px;
+    margin-left:7%;
     background: black;
     box-shadow:  4px 4px 10px 10px rgba(15, 14, 14, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.about-container .about-right img{
+    width: 200px;
+    height: 270px;
+    padding: 20px;
+}
 @media (max-width:830px) 
 {
     .about-page .about-container{

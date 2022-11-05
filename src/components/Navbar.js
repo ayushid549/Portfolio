@@ -9,14 +9,13 @@ function Navbar() {
                 <span className='s1'> Ayushi </span>
                 <span className='s2'> Dubey</span>
             </div>
-
             <div className='navbar'>
-                <NavLink activeClass="active" to="/" ><a>Home</a></NavLink>
-                <NavLink activeClass="active" to="/About" ><a>About</a></NavLink>
-                <NavLink activeClass="active" to="/Education" ><a>Education</a></NavLink>
-                <NavLink activeClass="active" to="/SkillComp" ><a>Skills</a></NavLink>
-                <NavLink activeClass="active" to="/CodingCard" ><a>Profiles</a></NavLink>
-                <NavLink activeClass="active" to="/Contact" ><a>Contact</a></NavLink>
+                <NavLink activeClass="active" to="/" >Home</NavLink>
+                <NavLink activeClass="active" to="/About" >About</NavLink>
+                <NavLink activeClass="active" to="/Education" >Education</NavLink>
+                <NavLink activeClass="active" to="/SkillComp" >Skills</NavLink>
+                <NavLink activeClass="active" to="/CodingCard" >Profiles</NavLink>
+                <NavLink activeClass="active" to="/Contact" >Contact</NavLink>
             </div>
         </div>
     )
