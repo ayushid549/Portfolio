@@ -12,14 +12,15 @@ import { Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <div>
-    <Navbar />
-    <Routes>   
-        <Route exact={true} path='/' element={<Homepage/>} />
-        <Route  path="/About" element={<AboutMe/>} />
-        <Route  path="/Education" element={<Education/>} />
-        <Route  path="/CodingCard" element={<CodingCard/>} />
-        <Route  path="/SkillComp" element={<SkillComp/>} />
-        <Route  path="/Contact" element={<Contact/>} />
+    <Navbar/>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/Portfolio' element={<Homepage />} />
+        <Route path="/About" element={<AboutMe />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/CodingCard" element={<CodingCard />} />
+        <Route path="/SkillComp" element={<SkillComp />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   );
